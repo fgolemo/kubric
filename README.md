@@ -23,7 +23,7 @@ For instructions, please refer to [https://kubric.readthedocs.io](https://kubric
 
 Assuming you have docker installed, to generate the data above simply execute:
 ```
-docker pull docker pull kubricdockerhub/kubruntu
+docker pull kubricdockerhub/kubruntu
 docker run --rm --interactive \
     --user $(id -u):$(id -g) \
     --volume "$PWD:/kubric" \
